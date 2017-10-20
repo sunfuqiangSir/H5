@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="Content/css/style.css">
+    <link type="text/css" rel="stylesheet" href="Content/icon/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/swiper-3.3.1.min.css">
+</head>
+<body ng-app="myApp">
+    <div class="box">
+        <header>
+            <span class="bj">服务</span><span>金融</span><i class="iconfont">&#xe729;</i>
+        </header>
+        <section>
+            <ui-view></ui-view>
+        </section>
+        <footer>
+            <dl>
+                <dt><i class="iconfont">&#xe717;</i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="iconfont">&#xe714;</i></dt>
+                <dd>论坛</dd>
+            </dl>
+            <dl>
+                <dt><i class="iconfont">&#xe716;</i></dt>
+                <dd>选车</dd>
+            </dl>
+            <dl>
+                <dt><i class="iconfont">&#xe724;</i></dt>
+                <dd>发现</dd>
+            </dl>
+            <dl>
+                <dt><i class="iconfont">&#xe717;</i></dt>
+                <dd>未登录</dd>
+            </dl>
+        </footer>
+    </div>
+    <script type="text/javascript" src="Script/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="Script/angular/angular.js"></script>
+    <script type="text/javascript" src="Script/angular/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="Script/swiper-3.3.1.min.js"></script>
+
+    <script type="text/javascript" src="App/app.js"></script>
+
+    <script type="text/javascript" src="App/controller/tabController.js"></script>
+
+    <script type="text/javascript" src="App/directive/tabDirective.js"></script>
+
+    <script type="text/javascript" src="App/service/tabService.js"></script>
+
+
+</body>
+</html>
